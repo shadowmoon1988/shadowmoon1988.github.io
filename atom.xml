@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-01T06:30:54.212Z</updated>
+  <updated>2018-01-20T04:44:24.107Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>welcome</title>
-    <link href="http://yoursite.com/2017/12/31/welcome/"/>
-    <id>http://yoursite.com/2017/12/31/welcome/</id>
-    <published>2018-01-01T02:03:53.000Z</published>
-    <updated>2018-01-01T06:30:54.212Z</updated>
+    <title>About the Blog</title>
+    <link href="http://yoursite.com/2018/01/20/About-the-Blog/"/>
+    <id>http://yoursite.com/2018/01/20/About-the-Blog/</id>
+    <published>2018-01-20T04:40:00.000Z</published>
+    <updated>2018-01-20T04:44:24.107Z</updated>
     
     <summary type="html">
     
@@ -29,23 +29,19 @@
       
         
         
-          &lt;p&gt;This is a test
+          &lt;p&gt;This is Baolong’s Blog. Here, I will share the learning notes or my understanding on Machine Learning and Data Science.&lt;br&gt;Besides, I
         
       
     
     </summary>
     
-      <category term="Coding" scheme="http://yoursite.com/categories/Coding/"/>
-    
-    
-      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/12/29/hello-world/"/>
-    <id>http://yoursite.com/2017/12/29/hello-world/</id>
+    <link href="http://yoursite.com/2017/12/30/hello-world/"/>
+    <id>http://yoursite.com/2017/12/30/hello-world/</id>
     <published>2017-12-30T05:42:37.201Z</published>
     <updated>2017-12-31T01:43:09.597Z</updated>
     
