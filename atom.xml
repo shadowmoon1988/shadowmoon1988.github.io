@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-20T04:44:24.107Z</updated>
+  <updated>2018-01-20T04:46:30.216Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/01/20/About-the-Blog/"/>
     <id>http://yoursite.com/2018/01/20/About-the-Blog/</id>
     <published>2018-01-20T04:40:00.000Z</published>
-    <updated>2018-01-20T04:44:24.107Z</updated>
+    <updated>2018-01-20T04:46:30.216Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,8 @@
       
         
         
-          &lt;p&gt;This is Baolong’s Blog. Here, I will share the learning notes or my understanding on Machine Learning and Data Science.&lt;br&gt;Besides, I
+          &lt;p&gt;This is Baolong’s Blog. &lt;/p&gt;
+&lt;p&gt;Here, I will share the learning notes or my understanding on Machine Learning and Data
         
       
     
