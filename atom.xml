@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-25T06:45:57.849Z</updated>
+  <updated>2018-01-25T06:56:46.262Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/01/25/latex-multirow-table/"/>
     <id>http://yoursite.com/2018/01/25/latex-multirow-table/</id>
     <published>2018-01-25T05:23:50.000Z</published>
-    <updated>2018-01-25T06:45:57.849Z</updated>
+    <updated>2018-01-25T06:56:46.262Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;p&gt;Here is a package can help us achieve the goal.&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+          &lt;p&gt;Package &lt;strong&gt;multirow&lt;/strong&gt; can help us achieve this goal.&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
         
       
     
@@ -62,34 +62,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2017/12/30/hello-world/"/>
-    <id>http://yoursite.com/2017/12/30/hello-world/</id>
-    <published>2017-12-30T05:42:37.201Z</published>
-    <updated>2017-12-31T01:43:09.597Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="Coding" scheme="http://yoursite.com/categories/Coding/"/>
-    
-    
-      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
