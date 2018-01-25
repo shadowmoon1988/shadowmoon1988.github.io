@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-25T07:05:08.158Z</updated>
+  <updated>2018-01-25T07:55:37.551Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>What is the expectation steps of throw 6 after all other numbers appears?</title>
+    <link href="http://yoursite.com/2018/01/25/expectation-steps-of-show-all/"/>
+    <id>http://yoursite.com/2018/01/25/expectation-steps-of-show-all/</id>
+    <published>2018-01-25T07:39:39.000Z</published>
+    <updated>2018-01-25T07:55:37.551Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;First let us consider a simple question, what is the expectation steps of all the numbers appears.&lt;br&gt;We know at first the probability
+        
+      
+    
+    </summary>
+    
+      <category term="Brain Teaser" scheme="http://yoursite.com/categories/Brain-Teaser/"/>
+    
+    
+      <category term="Probability" scheme="http://yoursite.com/tags/Probability/"/>
+    
+  </entry>
   
   <entry>
     <title>How to merge the cells of the table in LaTeX</title>
