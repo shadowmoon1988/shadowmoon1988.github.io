@@ -7,11 +7,13 @@
 
     
 
-    <title>Archives: 2017 | Baolong&#39;s Website</title>
+    <title>How to merge the cells of the table in LaTeX | Baolong&#39;s Website</title>
     <meta name="author" content="John Doe" />
     <meta name="version" content="1.0.0" />
     <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="description" content="Here is a package can help us achieve the goal.1\usepackage&amp;#123;multirow&amp;#125;
+Merge the cells horizontal.For example:
+123456\multicolumn&amp;#123;2&amp;#125;&amp;#123;|c|&amp;#125;&amp;#123;&amp;#125; 											```bashThe first brace is the number of cells you want to me" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
     <meta name="baidu-site-verification" content="F0CXvmUgA9" />
@@ -61,7 +63,7 @@
         
         
         
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="/archives">Archive</a>
         </li>
         
@@ -96,66 +98,82 @@
 
         
         
+        
+        
 
         
-        <div class="author-meta">
-            <div class="author-avatar">
-                <a href="/">
-                    <img src="/images/avatar.jpg" title="Baolong">
-                </a>
-            </div>
-            <div class="author-name">Baolong Ying</div>
-            <div class="author-work">Ph.D candidate &amp; Statistician</div>
-            <div class="author-location">
-                <i class="icon-location vm"></i>
-                <span class="vm">Singapore</span>
-            </div>
-            <div class="author-thread-wrap">
-                <div class="author-threads clearfix">
-                    <a class="thread-item" href="https://github.com/shadowmoon1988" target="_blank"><i class="icon-github"></i></a>
-					<a class="thread-item" href="https://www.researchgate.net/profile/Baolong_Ying" target="_blank"><i class="icon-circle-more"></i></a>
-                    <a class="thread-item" href="https://www.linkedin.com/in/baolong-ying-0544423a/" target="_blank"><i class="icon-linkedin"></i></a>                    
-                </div>
-            </div>
-        </div>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Merge-the-cells-horizontal"><span class="toc-number">1.</span> <span class="toc-text">Merge the cells horizontal.</span></a></li></ol>
         
     </div>
 </aside>
 
 </header>
 
-        <div id="content" class="content">
-
+        <div id="content" class="content"><article class="article" itemscope itemprop="blogPost">
     
+    <header class="article-header">
+        
+        <h1 itemprop="name">
+            How to merge the cells of the table in LaTeX
+        </h1>
+        
+        <div class="article-meta clearfix">
+            <a class="article-date" href="/2018/01/25/latex-multirow-table/">
     
+    <i class="icon-calendar"></i>
     
-    
-    <section class="archives-wrap">
-    <div class="archive-year-wrap">
-    <a href="/archives/2017" class="archive-year">2017</a>
-    </div>
-    <ol class="archives">
-    
-
-    <li class="archive-section-item">
-        <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <header class="archive-article-header">
-            <a href="/2017/12/30/hello-world/">Hello World</a>
-            (<a class="article-date" href="/2017/12/30/hello-world/">
-    
-    <time datetime="2017-12-30T05:42:37.201Z" itemprop="datePublished">12/30</time>
+    <time datetime="2018-01-25T05:23:50.000Z" itemprop="datePublished">2018-01-25</time>
 </a>
-)
-        </header>
-    </div>
+
+            
+<div class="article-tag-list">
+    <i class="icon-tag"></i>
+    <a class="article-tag-link" href="/tags/LaTeX/">LaTeX</a>
+</div>
+
+
+			
+<div class="article-tag-list">
+    <i class="icon-library"></i>
+    <a class="article-tag-link" href="/categories/Coding/">Coding</a>
+</div>
+
+        </div>
+    </header>
+    
+    <section class="article-body markdown-body">
+        
+        <p>Here is a package can help us achieve the goal.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;multirow&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="Merge-the-cells-horizontal"><a href="#Merge-the-cells-horizontal" class="headerlink" title="Merge the cells horizontal."></a>Merge the cells horizontal.</h2><p>For example:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">\multicolumn&#123;2&#125;&#123;|c|&#125;&#123;&#125; 											</span><br><span class="line">```bash</span><br><span class="line">The first brace is the number of cells you want to merge. The second brace is the style and <span class="string">"c"</span> means th</span><br><span class="line">e centering. The last brace is the text you want to fill <span class="keyword">in</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment">## Merge the cells vertical.</span></span><br></pre></td></tr></table></figure>
+<p>\multirow{3}<em>{test}<br>```<br>It is almost the same as horizontal. The difference is we use </em> to follow the style defined in the tabular at first.</p>
+
+        
+    </section>
 </article>
-    </li>
 
 
-</ol></section>
 
-
+<div class="comments">
+    <div id="disqus_thread">
+        <p class="comment-tips">国内查看评论需要代理~</p>
+    </div>
+    <script>
+    window.disqus_config = function () {
+        this.language = 'zh';
+        this.page.url = 'http://yoursite.com/2018/01/25/latex-multirow-table/';
+        this.page.title = 'How to merge the cells of the table in LaTeX';
+        this.page.identifier = '2018/01/25/latex-multirow-table/';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://name.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
 
 </div>
         <footer class="footer">

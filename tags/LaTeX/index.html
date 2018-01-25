@@ -7,7 +7,7 @@
 
     
 
-    <title>Archives: 2017 | Baolong&#39;s Website</title>
+    <title>Mot-clé: LaTeX | Baolong&#39;s Website</title>
     <meta name="author" content="John Doe" />
     <meta name="version" content="1.0.0" />
     <meta name="keywords" content="" />
@@ -61,7 +61,7 @@
         
         
         
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="/archives">Archive</a>
         </li>
         
@@ -125,35 +125,50 @@
 </header>
 
         <div id="content" class="content">
-
+    <article class="article" itemscope itemprop="blogPost">
     
+    <header class="article-header">
+        
+        <h1 itemprop="name">
+            <a href="/2018/01/25/latex-multirow-table/">How to merge the cells of the table in LaTeX</a>
+        </h1>
+        
+        <div class="article-meta clearfix">
+            <a class="article-date" href="/2018/01/25/latex-multirow-table/">
     
+    <i class="icon-calendar"></i>
     
-    
-    <section class="archives-wrap">
-    <div class="archive-year-wrap">
-    <a href="/archives/2017" class="archive-year">2017</a>
-    </div>
-    <ol class="archives">
-    
-
-    <li class="archive-section-item">
-        <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <header class="archive-article-header">
-            <a href="/2017/12/30/hello-world/">Hello World</a>
-            (<a class="article-date" href="/2017/12/30/hello-world/">
-    
-    <time datetime="2017-12-30T05:42:37.201Z" itemprop="datePublished">12/30</time>
+    <time datetime="2018-01-25T05:23:50.000Z" itemprop="datePublished">2018-01-25</time>
 </a>
-)
-        </header>
-    </div>
+
+            
+<div class="article-tag-list">
+    <i class="icon-tag"></i>
+    <a class="article-tag-link" href="/tags/LaTeX/">LaTeX</a>
+</div>
+
+
+			
+<div class="article-tag-list">
+    <i class="icon-library"></i>
+    <a class="article-tag-link" href="/categories/Coding/">Coding</a>
+</div>
+
+        </div>
+    </header>
+    
+    <section class="article-body markdown-body">
+        
+        <p>Here is a package can help us achieve the goal.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\usepackage&#123;multirow&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="Merge-the-cells-horizontal"><a href="#Merge-the-cells-horizontal" class="headerlink" title="Merge the cells horizontal."></a>Merge the cells horizontal.</h2><p>For example:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">\multicolumn&#123;2&#125;&#123;|c|&#125;&#123;&#125; 											</span><br><span class="line">```bash</span><br><span class="line">The first brace is the number of cells you want to merge. The second brace is the style and <span class="string">"c"</span> means th</span><br><span class="line">e centering. The last brace is the text you want to fill <span class="keyword">in</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment">## Merge the cells vertical.</span></span><br></pre></td></tr></table></figure>
+<p>\multirow{3}<em>{test}<br>```<br>It is almost the same as horizontal. The difference is we use </em> to follow the style defined in the tabular at first.</p>
+
+        
+    </section>
 </article>
-    </li>
 
 
-</ol></section>
 
 
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-20T04:46:30.216Z</updated>
+  <updated>2018-01-25T05:39:06.848Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to merge the cells of the table in LaTeX</title>
+    <link href="http://yoursite.com/2018/01/25/latex-multirow-table/"/>
+    <id>http://yoursite.com/2018/01/25/latex-multirow-table/</id>
+    <published>2018-01-25T05:23:50.000Z</published>
+    <updated>2018-01-25T05:39:06.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Here is a package can help us achieve the goal.&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="Coding" scheme="http://yoursite.com/categories/Coding/"/>
+    
+    
+      <category term="LaTeX" scheme="http://yoursite.com/tags/LaTeX/"/>
+    
+  </entry>
   
   <entry>
     <title>About the Blog</title>
